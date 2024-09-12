@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 15px;
+    color: #555;
+    margin-top: 5px;
+    font-family: 'Verdana', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Verdana', sans-serif;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+
+ul {
+    list-style-type: disc; /* Bullet padrão */
+    padding-left: 20px;
+    margin: 0;
+}
+
+
+li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+    font-size: 14px;
+}
+
+
+.two-column-flex {
+    display: flex; /* Ativa o Flexbox para dividir em colunas */
+    justify-content: space-around; /* Espaça as colunas igualmente */
+}
+
+
+.profile p, .education p, .employment p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+ .employment, .contacts, .profile, .education {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.employment, .contacts, .profile, .education {
+    text-align: center; /* Centraliza o texto horizontalmente dentro de cada elemento */
+}
+
+
+.contacts, .profile .content, .education .content {
+    width: 80px;
+}
+
+
+
+
+.experience .date, .education .date {
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.employment, .contacts, .profile, .education {
+  text-align: center;
+
+}
